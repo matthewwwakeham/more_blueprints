@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+// Define variables
+// Background
+$bg-color: #1a1a1a;
+// Card/Content Background
+$content-bg-color: #262626;
+// Overlay
+$overlay-color: rgba(0, 0, 0, 0.5);
+// Box Shadow
+$box-shadow: rgba(0, 0, 0, 0.5);
+// Primary Text
+$text-color-primary: #e6e6e6;
+// Secondary Text
+$text-color-secondary: #b3b3b3;
+// Accent (Blue) for links, buttons, or highlights
+$accent-color: #4d9cdd;
+// Border/Divider for sublte separation
+$border-color: #333333;
+// Error Message
+$error-color: #e74c3c;
+
+/* Base (mobile-first) styles */
+body {
+  display: flex;
+  flex-direction: column; /* Stack items vertically on mobile */
+  justify-content: center; /* Center content vertically */
+  align-items: center;    /* Center content horizontally */
+  min-height: 100vh;      /* Full viewport height */
+  margin: 0;              /* Remove default margin */
+  padding: 1rem;          /* Add space for smaller screens */
+  background-color: $bg-color; /* Optional background color */
+  font-family: "Inter", sans-serif;
+  overflow: hidden;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-container {
+  position: fixed;
+  z-index: 1100;
+}
+
+/* Position the page name text */
+.page-name {
+    position: fixed;
+    font-size: 20px; /* Adjust as needed */
+    font-family: 'Inter', sans-serif; /* Matches body font */
+    color: $text-color-secondary; /* Adjust for your theme */
+    top: 20px; /* Align with menu button vertically */
+    left: 20px; /* Align to the left edge */
+    z-index: 997; /* Above most content */
+}
+
+#menu-button {
+  font-size: 24px;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: $accent-color;
+  border-radius: 4px;
+  border: none;
+  z-index: 997;
+
+    &:hover {
+        background-color: lighten($accent-color, 10%); /* Hover effect */
+    }
+
+    &:focus {
+        outline: none;
+        box-shadow: none;
+        border-color: none; /* Highlight border with accent color */
+    }
+
+    &:active {
+        background-color: lighten($accent-color, 10%); /* Active effect */
+    }
+}
+
+.material-icons {
+    color: $bg-color;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+/* Overlay to dim the background */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $overlay-color; /* Semi-transparent black */
+  z-index: 999; /* Just below the popup menu */
+  display: none; /* Initially hidden */
+}
+
+/* Show the overlay when active */
+.overlay.active {
+  display: block;
+}
+
+.menu-content {
+    flex-grow: 1; /* Allow content to take up remaining space */
+    display: block;
+    overflow: hidden;
+}
+
+.menu-content .circle-and-heading h2, 
+.menu-content .circle-and-heading p {
+    margin: 0; /* Remove default margins */
+    padding-left: 1rem; /* Consistent padding */
+}
+
+.menu-content .circle-and-heading {
+    display: flex; /* Only apply flex to the container of the circle and h2 */
+    align-items: center; /* Vertically align the circle and h2 */
+    padding-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $border-color;
+}
+
+.menu-content .circle-and-heading h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: $text-color-primary;
+    padding-left: 10px;
+    font-size: 14px;
+    overflow: hidden; /* Ensures content that overflows the box is hidden */
+    text-overflow: ellipsis; /* Adds ellipsis (...) to indicate truncated text */
+    white-space: nowrap; /* Prevents text from wrapping to the next line */
+}
+
+.menu-content .circle-and-heading h2::first-letter {
+    text-transform: uppercase;
+}
+
+.menu-content .circle-and-heading p {
+    font-family: "Inter", sans-serif;
+    color: $text-color-secondary;
+    font-size: 14px;
+    padding-left: 10px;
+    font-weight: 300;
+    overflow: hidden; /* Ensures content that overflows the box is hidden */
+    text-overflow: ellipsis; /* Adds ellipsis (...) to indicate truncated text */
+    white-space: nowrap; /* Prevents text from wrapping to the next line */
+}
+
+.menu-content .circle-and-heading .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid $border-color;
+    font-size: 24px;
+    color: $text-color-primary;
+    display: flex; /* Use flexbox to center content */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    text-align: center; /* Ensures the text is centered inside */
+    box-shadow: none;
+}
+
+.menu-content .circle-and-heading div {
+    display: flex; /* Use flexbox to stack h2 and p vertically */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Vertically center the items in the div */
+}
+
+.menu-content button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.menu-content ul {
+    list-style: none; /* Remove default bullet points */
+    margin: 0;
+    padding: 0;
+    background-color: $content-bg-color; /* Background for the menu */
+    border: none; /* No outer border around the list */
+    overflow: hidden; /* Prevent content overflow */
+}
+
+.menu-content ul li {
+    display: flex;
+    align-items: center; /* Align items in the center vertically */
+    margin: 8px 0;
+    padding: 1rem 0.75rem 1rem 0.75rem;
+    border-radius: 12px;
+    border-bottom: none;
+    color: $text-color-primary; /* Primary text color */
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    cursor: pointer; /* Indicate the items are clickable */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover transition */
+}
+
+.menu-content ul li a {
+    text-decoration: none; /* Remove underline */
+    color: $text-color-primary; /* Inherit the primary text color */
+    flex-grow: 1; /* Allow text to fill available space */
+    display: flex; /* Treat link as flex container */
+    align-items: center; /* Vertically align text */
+    line-height: 1.5; /* Add vertical spacing */
+}
+
+.menu-content ul li i {
+    font-size: 20px; /* Adjust size for icons */
+    color: $text-color-primary; /* Accent color for icons */
+    margin-right: 10px; /* Space between icon and text */
+    line-height: 1; /* Avoid extra spacing */
+    display: flex; /* Flexbox ensures icon alignment */
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
+}
+
+.menu-content ul li:hover {
+    background-color: lighten($border-color, 10%); /* Hover effect */
+    border-color: none;
+}
+
+.menu-content ul li a:hover {
+    color: $text-color-primary; /* Accent color for links on hover */
+}
+
+.menu-content ul li:active {
+    background-color: lighten($border-color, 10%); /* Hover effect */
+    border-color: none;
+}
+
+.popup-menu {
+  position: fixed;
+  justify-content: space-between;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $content-bg-color;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px $box-shadow;
+  width: 80%; /* Adjust width */
+  height: 60%; /* Add height */
+  padding: 20px 20px 20px 20px;
+  overflow-y: auto; /* Add scrolling if content exceeds height */
+  max-width: 400px; /* Optional: limit the maximum size */
+  max-height: 450px; /* Optional: limit height */
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  z-index: 1100;
+}
+
+.popup-menu .header {
+  display: flex; 
+  justify-content: space-between; /* Space out the items */
+  align-items: center; /* Vertically center them */
+  width: 100%;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.popup-menu.hidden {
+  display: none;
+}
+
+#close-button {
+  display: block;
+  margin-right: auto;
+  background: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  color: $text-color-primary;
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+#close-button:hover {
+    background-color: lighten($border-color, 10%); /* Hover effect */
+    border-color: none;
+  }
+
+#close-button:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: none; /* Highlight border with accent color */
+}
+
+#close-button:active {
+    background-color: lighten($border-color, 10%); /* Hover effect */
+    border-color: none;
+}
+
+#brand {
+    position: absolute;             /* Position it absolutely */
+    left: 50%;                      /* Center horizontally */
+    transform: translateX(-50%);    /* Offset by half of its width to center it */
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Geologica", sans-serif;
+    color: $text-color-primary;
+}
+
+.chat-container {
+    position: fixed;
+    bottom: 20px;
+    width: calc(100% - 40px); /* Fit within body padding */
+    max-width: 800px; /* Cap maximum width */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $bg-color;
+    border: 1px solid $border-color;
+    border-radius: 24px; /* Rounded corners for input container */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Focus effect */
+    padding: 0; /* Remove padding for flush input */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center; /* Align input and button */
+}
+
+.chat-input-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: transparent; /* Match container */
+    padding: 0; /* Remove unnecessary padding */
+    border-radius: 24px;
+
+    input {
+        flex: 1;
+        padding: 12px 16px;
+        font-size: 1rem;
+        border: none;
+        outline: none;
+        background-color: transparent; /* Blend with container */
+        color: $text-color-primary;
+        border-radius: 24px; /* Rounded edges for seamless look */
+
+        &::placeholder {
+            color: $text-color-secondary;
+        }
+
+        &:focus {
+            border-color: 1px solid $accent-color;
+        }
+    }
+
+    button {
+        padding: 10px;
+        font-size: 1rem;
+        border: none;
+        background-color: $accent-color;
+        color: $bg-color;
+        cursor: pointer;
+        border-radius: 50%; /* Fully circular button */
+        height: 30px; /* Fixed size for consistency */
+        width: 30px;
+        margin-right: 12px; /* Space between button and container edge */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover {
+            background-color: lighten($accent-color, 10%); /* Hover effect */
+        }
+
+        &:active {
+            background-color: lighten($accent-color, 10%); /* Active effect */
+        }
+
+        &:focus {
+            outline: none;
+            box-shadow: none;
+            border-color: none; /* Highlight border with accent color */
+        }
+    }
+}
+
+/* Larger screens (e.g., tablets and desktops) */
+@media (min-width: 768px) {
+  body {
+    flex-direction: row;  /* Arrange items side by side */
+  }
+}

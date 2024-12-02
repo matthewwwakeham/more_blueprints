@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Alembic - settings{% endblock %}
+
+{% block header %}
+<link rel="stylesheet" href="{{url_for('static', filename="css/settings.css")}}" />
+{% endblock %}
+
+{% block body %}
+<div class="menu-container">
+<div class="page-name">Settings</div>
+<button id="menu-button"><i class="material-icons">menu</i></button>
+<div id="overlay" class="overlay hidden"></div> <!-- Place it here -->
+<div id="popup-menu" class="popup-menu hidden">
+<div class="header">
+<button id="close-button">✕</button>
+<div id="brand">Alembic</div>
+</div>
+<div class="menu-content">
+        <div class="circle-and-heading"><div id="user-circle" class="circle"></div><div><h2>{{ username }}</h2><p>{{ email }}</p></div></div>
+  <ul>
+    <li><a href="{{url_for('chat.dashboard')}}"><i class="material-icons">dashboard</i>Dashboard</a></li>
+    <li><a href="{{url_for('chat.settings')}}"><i class="material-icons">settings</i>Settings</a></li>
+    <li><a href="{{url_for('logout')}}" class="btn btn-logout"><i class="material-icons">logout</i>Log out</a></li>
+</ul>
+</div>
+</div>
+</div>
+<script>
+    let userName = "{{ username }}";  // Flask renders the username here
+    let userColor = "{{ user_color }}"; // Flask renders the user_color here
+
+    let firstChar = userName.charAt(0).toUpperCase();  // Get the first character
+    
+    // Set the first character in the circle
+    let circle = document.getElementById('user-circle');
+    circle.textContent = firstChar;
+    
+    // Set a random background color for the circle
+    circle.style.backgroundColor = userColor;
+</script>
+<script src="{{ url_for('static', filename='js/menu.js') }}"></script>
+{% endblock %}

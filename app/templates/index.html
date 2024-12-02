@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% block title %}Alembic - login or sign up{% endblock %}
+{% block header %}
+<link rel="stylesheet" href="{{url_for('static', filename="css/index.css")}}" />
+<header>
+</header>
+{% endblock %}
+{% block body %}
+<div class="container">
+    <h1>
+        Login or Sign Up
+    </h1>
+    <form id ="auth-form" action="{{url_for('chat.login')}}" method="post" onsubmit="return validateForm()" novalidate>
+{% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        {% for category, message in messages %}
+            {% if category == 'error' %}
+                <span class="error-message">{{ message }}</span>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endwith %}
+        <input 
+        id="email"
+        type="text" 
+        name="username" 
+        placeholder="Username or Email"
+        class="input-field"
+        required
+        maxlength="254"
+        autocomplete="username email"
+        />
+        <input 
+        id="password"
+        type="password" 
+        name="password" 
+        placeholder="Password" 
+        class="input-field"
+        required
+        minlength="8"
+        autocomplete="current-password"
+        />
+        <input 
+        type="submit" 
+        value="Login" 
+        class="input-field button" 
+        />
+    </form>
+    <h3>
+        <a href="{{url_for('chat.reset')}}">Forgot your password?</a>
+    </h3>
+    <a href="{{ url_for('chat.signup') }}" class="input-field button">Sign Up</a>
+</div>
+<footer>
+    <h2>
+        Alembic
+    </h2>
+</footer>
+<script src="{{ url_for('static', filename='js/login.js') }}"></script>
+{% endblock %}

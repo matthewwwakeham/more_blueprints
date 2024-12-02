@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Alembic - reset{% endblock %}
+
+{% block header %}
+<link rel="stylesheet" href="{{url_for('static', filename="css/reset.css")}}" />
+<header>
+    <h2>Alembic</h2>
+</header>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h1>
+        Reset Password
+    </h1>
+    <h4>
+        Enter the username or email associated with your account to change your password.
+    </h4>
+    <form id="auth-form" action="{{ url_for('chat.reset') }}" method="post" onsubmit="return validateForm()" novalidate>
+        <span id="emailError" class="error-message"></span>
+        <!-- Email Field -->
+        <input
+            type="email" 
+            id="email"
+            name="email" 
+            placeholder="Email"
+            class="input-field"
+            required
+            maxlength="254"
+        />          
+
+        <!-- Submit Button -->
+        <input 
+            type="submit" 
+            value="Reset" 
+            class="input-field button" 
+        />
+    </form>    
+</div>
+
+{% endblock %}

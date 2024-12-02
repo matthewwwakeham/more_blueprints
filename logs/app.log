@@ -1,0 +1,509 @@
+2024-12-02 11:49:36,753 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 11:49:36,753 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-02 11:49:36,754 - werkzeug - INFO -  * Restarting with stat
+2024-12-02 11:49:37,388 - werkzeug - WARNING -  * Debugger is active!
+2024-12-02 11:49:37,398 - werkzeug - INFO -  * Debugger PIN: 615-120-978
+2024-12-02 11:50:33,106 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 11:50:33,106 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-02 11:50:33,106 - werkzeug - INFO -  * Restarting with stat
+2024-12-02 11:50:33,715 - werkzeug - WARNING -  * Debugger is active!
+2024-12-02 11:50:33,721 - werkzeug - INFO -  * Debugger PIN: 615-120-978
+2024-12-02 11:50:40,914 - werkzeug - INFO -  * Detected change in '/Users/sensui/Documents/more_blueprints/train_model.py', reloading
+2024-12-02 11:50:41,018 - werkzeug - INFO -  * Restarting with stat
+2024-12-02 11:50:41,674 - werkzeug - WARNING -  * Debugger is active!
+2024-12-02 11:50:41,680 - werkzeug - INFO -  * Debugger PIN: 615-120-978
+2024-12-02 11:50:43,773 - werkzeug - INFO -  * Detected change in '/Users/sensui/Documents/more_blueprints/utils.py', reloading
+2024-12-02 11:50:43,873 - werkzeug - INFO -  * Restarting with stat
+2024-12-02 11:50:44,528 - werkzeug - WARNING -  * Debugger is active!
+2024-12-02 11:50:44,533 - werkzeug - INFO -  * Debugger PIN: 615-120-978
+2024-12-02 11:50:45,579 - werkzeug - INFO -  * Detected change in '/Users/sensui/Documents/more_blueprints/wsgi.py', reloading
+2024-12-02 11:50:45,688 - werkzeug - INFO -  * Restarting with stat
+2024-12-02 11:50:46,317 - werkzeug - WARNING -  * Debugger is active!
+2024-12-02 11:50:46,322 - werkzeug - INFO -  * Debugger PIN: 615-120-978
+2024-12-02 11:50:47,350 - werkzeug - INFO -  * Detected change in '/Users/sensui/Documents/more_blueprints/app/routes.py', reloading
+2024-12-02 11:50:47,446 - werkzeug - INFO -  * Restarting with stat
+2024-12-02 11:50:48,137 - werkzeug - WARNING -  * Debugger is active!
+2024-12-02 11:50:48,143 - werkzeug - INFO -  * Debugger PIN: 615-120-978
+2024-12-02 11:50:49,180 - werkzeug - INFO -  * Detected change in '/Users/sensui/Documents/more_blueprints/app/chatbot_logic.py', reloading
+2024-12-02 11:50:49,287 - werkzeug - INFO -  * Restarting with stat
+2024-12-02 11:50:49,918 - werkzeug - WARNING -  * Debugger is active!
+2024-12-02 11:50:49,923 - werkzeug - INFO -  * Debugger PIN: 615-120-978
+2024-12-02 11:51:14,500 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:51:14] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 11:51:14,518 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:51:14] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 11:51:14,518 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:51:14] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 11:51:14,535 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:51:14] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=HsomHegr8lN5dzyCNwcg HTTP/1.1" 200 -
+2024-12-02 11:51:14,549 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:51:14] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 11:51:17,657 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:51:17] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 11:51:17,671 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:51:17] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 11:51:17,671 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:51:17] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 11:51:17,675 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:51:17] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=HsomHegr8lN5dzyCNwcg HTTP/1.1[0m" 304 -
+2024-12-02 11:51:17,681 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:51:17] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 11:53:29,684 - werkzeug - INFO -  * Detected change in '/Users/sensui/Documents/more_blueprints/app/routes.py', reloading
+2024-12-02 11:53:29,804 - werkzeug - INFO -  * Restarting with stat
+2024-12-02 11:53:30,695 - werkzeug - WARNING -  * Debugger is active!
+2024-12-02 11:53:30,703 - werkzeug - INFO -  * Debugger PIN: 615-120-978
+2024-12-02 11:53:37,562 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:53:37] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 11:53:37,576 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:53:37] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 11:53:37,578 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:53:37] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 11:53:37,585 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:53:37] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=QUU2U2tJpLPPBhAqFt51 HTTP/1.1" 200 -
+2024-12-02 11:53:37,590 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:53:37] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 11:53:39,134 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:53:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 11:53:39,145 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:53:39] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 11:53:39,145 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:53:39] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 11:53:39,151 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:53:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=QUU2U2tJpLPPBhAqFt51 HTTP/1.1[0m" 304 -
+2024-12-02 11:53:39,157 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:53:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 11:55:31,562 - werkzeug - INFO -  * Detected change in '/Users/sensui/Documents/more_blueprints/app/routes.py', reloading
+2024-12-02 11:55:31,666 - werkzeug - INFO -  * Restarting with stat
+2024-12-02 11:55:32,567 - werkzeug - WARNING -  * Debugger is active!
+2024-12-02 11:55:32,572 - werkzeug - INFO -  * Debugger PIN: 615-120-978
+2024-12-02 11:55:37,322 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:55:37] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 11:55:37,341 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:55:37] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 11:55:37,341 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:55:37] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 11:55:37,346 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:55:37] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=hQK3huSh5XfjM0pK5OC8 HTTP/1.1" 200 -
+2024-12-02 11:55:37,352 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:55:37] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 11:55:37,810 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:55:37] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 11:55:37,820 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:55:37] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 11:55:37,820 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:55:37] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 11:55:37,823 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:55:37] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=hQK3huSh5XfjM0pK5OC8 HTTP/1.1[0m" 304 -
+2024-12-02 11:55:37,832 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:55:37] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 11:55:37,934 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:55:37] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 11:55:37,942 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:55:37] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 11:55:37,943 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:55:37] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 11:55:37,946 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:55:37] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=hQK3huSh5XfjM0pK5OC8 HTTP/1.1[0m" 304 -
+2024-12-02 11:55:37,952 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:55:37] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 11:58:17,734 - werkzeug - INFO -  * Detected change in '/Users/sensui/Documents/more_blueprints/app/routes.py', reloading
+2024-12-02 11:58:17,842 - werkzeug - INFO -  * Restarting with stat
+2024-12-02 11:58:18,794 - werkzeug - WARNING -  * Debugger is active!
+2024-12-02 11:58:18,810 - werkzeug - INFO -  * Debugger PIN: 615-120-978
+2024-12-02 11:58:33,490 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 11:58:33,490 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-02 11:58:33,490 - werkzeug - INFO -  * Restarting with stat
+2024-12-02 11:58:34,119 - werkzeug - WARNING -  * Debugger is active!
+2024-12-02 11:58:34,125 - werkzeug - INFO -  * Debugger PIN: 615-120-978
+2024-12-02 11:58:37,454 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:37] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 11:58:37,472 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:37] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 11:58:37,474 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:37] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 11:58:37,481 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:37] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=V29HGPfqtBkbddsvBzJA HTTP/1.1" 200 -
+2024-12-02 11:58:37,486 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:37] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 11:58:37,973 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:37] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 11:58:37,984 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:37] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 11:58:37,984 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:37] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 11:58:37,988 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:37] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=V29HGPfqtBkbddsvBzJA HTTP/1.1[0m" 304 -
+2024-12-02 11:58:37,994 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:37] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 11:58:38,134 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 11:58:38,144 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 11:58:38,145 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 11:58:38,148 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=V29HGPfqtBkbddsvBzJA HTTP/1.1[0m" 304 -
+2024-12-02 11:58:38,155 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 11:58:38,297 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 11:58:38,308 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 11:58:38,308 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 11:58:38,316 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=V29HGPfqtBkbddsvBzJA HTTP/1.1[0m" 304 -
+2024-12-02 11:58:38,320 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 11:58:38,469 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 11:58:38,478 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 11:58:38,478 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 11:58:38,482 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=V29HGPfqtBkbddsvBzJA HTTP/1.1[0m" 304 -
+2024-12-02 11:58:38,489 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 11:58:38,644 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 11:58:38,655 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 11:58:38,655 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 11:58:38,659 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=V29HGPfqtBkbddsvBzJA HTTP/1.1[0m" 304 -
+2024-12-02 11:58:38,667 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 11:58:38,813 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 11:58:38,824 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 11:58:38,825 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 11:58:38,831 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=V29HGPfqtBkbddsvBzJA HTTP/1.1[0m" 304 -
+2024-12-02 11:58:38,836 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 11:58:38,967 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 11:58:38,975 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 11:58:38,975 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 11:58:38,982 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=V29HGPfqtBkbddsvBzJA HTTP/1.1[0m" 304 -
+2024-12-02 11:58:38,985 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 11:58:39,136 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 11:58:39,148 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:39] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 11:58:39,149 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:39] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 11:58:39,152 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=V29HGPfqtBkbddsvBzJA HTTP/1.1[0m" 304 -
+2024-12-02 11:58:39,157 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 11:58:39,321 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 11:58:39,333 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:39] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 11:58:39,333 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:39] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 11:58:39,336 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=V29HGPfqtBkbddsvBzJA HTTP/1.1[0m" 304 -
+2024-12-02 11:58:39,343 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:58:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 11:59:14,048 - werkzeug - INFO -  * Detected change in '/Users/sensui/Documents/more_blueprints/app/routes.py', reloading
+2024-12-02 11:59:14,169 - werkzeug - INFO -  * Restarting with stat
+2024-12-02 11:59:15,122 - werkzeug - WARNING -  * Debugger is active!
+2024-12-02 11:59:15,133 - werkzeug - INFO -  * Debugger PIN: 615-120-978
+2024-12-02 11:59:18,535 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:18] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 11:59:18,553 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:18] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 11:59:18,553 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:18] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 11:59:18,561 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:18] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=DjQmsWBJXe8IJdN9GWnA HTTP/1.1" 200 -
+2024-12-02 11:59:18,565 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:18] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 11:59:19,088 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 11:59:19,102 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:19] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 11:59:19,102 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:19] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 11:59:19,109 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=DjQmsWBJXe8IJdN9GWnA HTTP/1.1[0m" 304 -
+2024-12-02 11:59:19,115 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 11:59:19,215 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 11:59:19,224 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:19] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 11:59:19,224 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:19] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 11:59:19,230 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=DjQmsWBJXe8IJdN9GWnA HTTP/1.1[0m" 304 -
+2024-12-02 11:59:19,234 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 11:59:19,350 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 11:59:19,359 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:19] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 11:59:19,359 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:19] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 11:59:19,364 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=DjQmsWBJXe8IJdN9GWnA HTTP/1.1[0m" 304 -
+2024-12-02 11:59:19,369 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 11:59:19,499 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 11:59:19,508 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:19] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 11:59:19,508 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:19] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 11:59:19,515 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=DjQmsWBJXe8IJdN9GWnA HTTP/1.1[0m" 304 -
+2024-12-02 11:59:19,519 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 11:59:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 11:59:33,605 - werkzeug - INFO -  * Detected change in '/Users/sensui/Documents/more_blueprints/app/routes.py', reloading
+2024-12-02 11:59:33,709 - werkzeug - INFO -  * Restarting with stat
+2024-12-02 11:59:34,477 - werkzeug - WARNING -  * Debugger is active!
+2024-12-02 11:59:34,482 - werkzeug - INFO -  * Debugger PIN: 615-120-978
+2024-12-02 12:00:24,542 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 12:00:24,542 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-02 12:00:24,543 - werkzeug - INFO -  * Restarting with stat
+2024-12-02 12:00:25,166 - werkzeug - WARNING -  * Debugger is active!
+2024-12-02 12:00:25,172 - werkzeug - INFO -  * Debugger PIN: 615-120-978
+2024-12-02 12:00:28,429 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:00:28] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:00:28,443 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:00:28] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:00:28,445 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:00:28] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:00:28,449 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:00:28] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=fi9YiUtK41pWunhKNwdN HTTP/1.1" 200 -
+2024-12-02 12:00:28,456 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:00:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:03:40,819 - werkzeug - INFO -  * Detected change in '/Users/sensui/Documents/more_blueprints/app/routes.py', reloading
+2024-12-02 12:03:40,934 - werkzeug - INFO -  * Restarting with stat
+2024-12-02 12:03:41,854 - werkzeug - WARNING -  * Debugger is active!
+2024-12-02 12:03:41,861 - werkzeug - INFO -  * Debugger PIN: 615-120-978
+2024-12-02 12:05:46,617 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-02 12:05:46,617 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-02 12:05:46,617 - werkzeug - INFO -  * Restarting with stat
+2024-12-02 12:05:47,241 - werkzeug - WARNING -  * Debugger is active!
+2024-12-02 12:05:47,247 - werkzeug - INFO -  * Debugger PIN: 615-120-978
+2024-12-02 12:05:50,198 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:50] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:50,216 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:50] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:50,217 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:50] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:50,232 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:50] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1" 200 -
+2024-12-02 12:05:50,236 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:50] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:50,891 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:50] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:50,902 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:50] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:50,903 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:50] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:50,911 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:50] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:50,915 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:50] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:51,621 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:51,634 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:51] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:51,634 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:51] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:51,638 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:51] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:51,647 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:51] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:51,807 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:51,816 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:51] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:51,817 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:51] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:51,820 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:51] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:51,828 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:51] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:52,046 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:52,057 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:52,057 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:52,061 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:52,069 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:52,243 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:52,254 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:52,255 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:52,260 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:52,267 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:52,420 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:52,431 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:52,432 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:52,435 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:52,444 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:52,602 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:52,614 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:52,614 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:52,617 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:52,626 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:52,812 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:52,824 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:52,825 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:52,829 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:52,836 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:52,992 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:53,003 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:53,005 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:53,010 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:53,017 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:53,189 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:53,202 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:53,202 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:53,206 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:53,214 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:53,360 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:53,371 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:53,371 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:53,376 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:53,383 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:53,564 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:53,578 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:53,578 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:53,582 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:53,589 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:53,753 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:53,765 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:53,765 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:53,768 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:53,777 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:53,940 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:53,951 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:53,951 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:53,955 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:53,964 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:54,116 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:54,127 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:54,127 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:54,131 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:54,138 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:54,311 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:54,321 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:54,322 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:54,327 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:54,333 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:54,491 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:54,503 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:54,503 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:54,511 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:54,516 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:54,674 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:54,686 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:54,687 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:54,693 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:54,701 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:54,871 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:54,883 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:54,884 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:54,887 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:54,896 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:55,048 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:55,062 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:55,063 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:55,070 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:55,076 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:55,245 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:55,257 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:55,257 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:55,261 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:55,268 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:55,421 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:55,432 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:55,433 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:55,436 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:55,446 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:55,601 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:55,613 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:55,613 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:55,617 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:55,626 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:55,762 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:55,773 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:55,773 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:55,776 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:55,784 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:55,930 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:55,943 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:55,944 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:55,946 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:55,954 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:56,112 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:56] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:56,123 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:56] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:56,124 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:56] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:56,128 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:56] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:56,135 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:56] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:56,257 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:56] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:56,267 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:56] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:56,269 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:56] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:56,272 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:56] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:56,281 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:56] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:05:56,431 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:56] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:05:56,444 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:56] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:05:56,444 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:56] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:05:56,447 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:56] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:05:56,454 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:05:56] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:07:04,545 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:07:04,556 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:04] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:07:04,558 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:04] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:07:04,566 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:07:04,570 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,053 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:07:05,064 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,066 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,069 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,078 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,198 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:07:05,210 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,211 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,214 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,221 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,366 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:07:05,378 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,378 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,385 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,391 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,531 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:07:05,544 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,544 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,547 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,555 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,698 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:07:05,712 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,712 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,715 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,723 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,843 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:07:05,852 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,853 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,858 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,864 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:07:05,993 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:07:06,003 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,004 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,009 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,016 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,164 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:07:06,175 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,176 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,183 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,189 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,327 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:07:06,337 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,337 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,343 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,349 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,475 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:07:06,484 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,485 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,488 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,497 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,642 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:07:06,653 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,653 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,662 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,667 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,807 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:07:06,817 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,818 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,821 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,830 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,937 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:07:06,946 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,946 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,950 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:07:06,958 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:07:07,103 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:07] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:07:07,112 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:07] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:07:07,112 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:07] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:07:07,117 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:07:07,126 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:07:07,381 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:07] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:07:07,394 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:07] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:07:07,394 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:07] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:07:07,397 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Pv8ylvaU4wVQFfejuQgG HTTP/1.1[0m" 304 -
+2024-12-02 12:07:07,404 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:07:25,616 - werkzeug - INFO -  * Detected change in '/Users/sensui/Documents/more_blueprints/app/routes.py', reloading
+2024-12-02 12:07:25,752 - werkzeug - INFO -  * Restarting with stat
+2024-12-02 12:07:26,649 - werkzeug - WARNING -  * Debugger is active!
+2024-12-02 12:07:26,656 - werkzeug - INFO -  * Debugger PIN: 615-120-978
+2024-12-02 12:07:36,900 - werkzeug - INFO -  * Detected change in '/Users/sensui/Documents/more_blueprints/app/routes.py', reloading
+2024-12-02 12:07:37,004 - werkzeug - INFO -  * Restarting with stat
+2024-12-02 12:07:37,641 - werkzeug - WARNING -  * Debugger is active!
+2024-12-02 12:07:37,646 - werkzeug - INFO -  * Debugger PIN: 615-120-978
+2024-12-02 12:07:41,323 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:07:41,340 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:41] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:07:41,341 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:41] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:07:41,346 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:41] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=8DAItRM6CPNXW0idHuo6 HTTP/1.1" 200 -
+2024-12-02 12:07:41,351 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:07:41] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:10:13,196 - werkzeug - INFO -  * Detected change in '/Users/sensui/Documents/more_blueprints/app/routes.py', reloading
+2024-12-02 12:10:13,322 - werkzeug - INFO -  * Restarting with stat
+2024-12-02 12:10:14,226 - werkzeug - WARNING -  * Debugger is active!
+2024-12-02 12:10:14,237 - werkzeug - INFO -  * Debugger PIN: 615-120-978
+2024-12-02 12:10:18,266 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:18] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:10:18,283 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:18] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:10:18,283 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:18] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:10:18,287 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:18] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=qfczGt3Rfs8uteKqenTo HTTP/1.1" 200 -
+2024-12-02 12:10:18,296 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:18] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:10:18,856 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:18] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:10:18,866 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:18] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:10:18,867 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:18] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:10:18,870 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:18] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=qfczGt3Rfs8uteKqenTo HTTP/1.1[0m" 304 -
+2024-12-02 12:10:18,878 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:18] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:10:19,052 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:10:19,062 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:19] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:10:19,062 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:19] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:10:19,066 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=qfczGt3Rfs8uteKqenTo HTTP/1.1[0m" 304 -
+2024-12-02 12:10:19,076 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:10:19,227 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:10:19,239 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:19] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:10:19,239 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:19] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:10:19,244 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=qfczGt3Rfs8uteKqenTo HTTP/1.1[0m" 304 -
+2024-12-02 12:10:19,250 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:10:19,444 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:10:19,455 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:19] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:10:19,456 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:19] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:10:19,464 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=qfczGt3Rfs8uteKqenTo HTTP/1.1[0m" 304 -
+2024-12-02 12:10:19,469 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:10:19,618 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-02 12:10:19,628 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:19] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 12:10:19,628 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:19] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 12:10:19,631 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=qfczGt3Rfs8uteKqenTo HTTP/1.1[0m" 304 -
+2024-12-02 12:10:19,639 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:10:46,060 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:46] "GET / HTTP/1.1" 200 -
+2024-12-02 12:10:46,072 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:46] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-12-02 12:10:46,072 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:46] "GET /static/js/login.js HTTP/1.1" 200 -
+2024-12-02 12:10:46,436 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:10:46] "[33mGET /static/favicon.svg HTTP/1.1[0m" 404 -
+2024-12-02 12:11:02,252 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:11:02] "GET /signup HTTP/1.1" 200 -
+2024-12-02 12:11:02,264 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:11:02] "GET /static/css/signup.css HTTP/1.1" 200 -
+2024-12-02 12:11:02,265 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:11:02] "GET /static/js/signup.js HTTP/1.1" 200 -
+2024-12-02 12:13:03,675 - app.routes - ERROR - Registration error: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2024-12-02 12:13:03,678 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:13:03] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2024-12-02 12:13:03,696 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:13:03] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-12-02 12:13:03,696 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:13:03] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-12-02 12:13:03,704 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:13:03] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=qfczGt3Rfs8uteKqenTo HTTP/1.1" 200 -
+2024-12-02 12:13:03,708 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:13:03] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-02 12:14:34,820 - werkzeug - INFO -  * Detected change in '/Users/sensui/Documents/more_blueprints/app/__init__.py', reloading
+2024-12-02 12:14:34,934 - werkzeug - INFO -  * Restarting with stat
+2024-12-02 12:14:35,851 - werkzeug - WARNING -  * Debugger is active!
+2024-12-02 12:14:35,858 - werkzeug - INFO -  * Debugger PIN: 615-120-978
+2024-12-02 12:14:43,563 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:14:43] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-12-02 12:14:43,575 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:14:43] "GET /signup HTTP/1.1" 200 -
+2024-12-02 12:14:43,593 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:14:43] "[36mGET /static/css/signup.css HTTP/1.1[0m" 304 -
+2024-12-02 12:14:43,593 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:14:43] "[36mGET /static/js/signup.js HTTP/1.1[0m" 304 -
+2024-12-02 12:14:48,104 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:14:48] "GET /signup HTTP/1.1" 200 -
+2024-12-02 12:14:48,117 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:14:48] "[36mGET /static/css/signup.css HTTP/1.1[0m" 304 -
+2024-12-02 12:14:48,117 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:14:48] "[36mGET /static/js/signup.js HTTP/1.1[0m" 304 -
+2024-12-02 12:14:48,457 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:14:48] "GET /signup HTTP/1.1" 200 -
+2024-12-02 12:14:48,468 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:14:48] "[36mGET /static/css/signup.css HTTP/1.1[0m" 304 -
+2024-12-02 12:14:48,469 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:14:48] "[36mGET /static/js/signup.js HTTP/1.1[0m" 304 -
+2024-12-02 12:14:48,624 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:14:48] "GET /signup HTTP/1.1" 200 -
+2024-12-02 12:14:48,636 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:14:48] "[36mGET /static/css/signup.css HTTP/1.1[0m" 304 -
+2024-12-02 12:14:48,637 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:14:48] "[36mGET /static/js/signup.js HTTP/1.1[0m" 304 -
+2024-12-02 12:14:48,790 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:14:48] "GET /signup HTTP/1.1" 200 -
+2024-12-02 12:14:48,802 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:14:48] "[36mGET /static/css/signup.css HTTP/1.1[0m" 304 -
+2024-12-02 12:14:48,803 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:14:48] "[36mGET /static/js/signup.js HTTP/1.1[0m" 304 -
+2024-12-02 12:15:05,712 - app.routes - INFO - New user registered: yuri
+2024-12-02 12:15:05,712 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:15:05] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-12-02 12:15:05,718 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:15:05] "GET /dashboard HTTP/1.1" 200 -
+2024-12-02 12:15:05,732 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:15:05] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+2024-12-02 12:15:05,732 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:15:05] "GET /static/js/chat.js HTTP/1.1" 200 -
+2024-12-02 12:15:05,759 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:15:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-02 12:15:51,524 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:15:51] "GET /dashboard HTTP/1.1" 200 -
+2024-12-02 12:15:51,538 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:15:51] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2024-12-02 12:15:51,538 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:15:51] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2024-12-02 12:16:00,554 - chatbot_logger - INFO - User Query: Help me return this product!
+2024-12-02 12:16:00,554 - chatbot_logger - INFO - Predicted Intent: return_product (Confidence: 0.98)
+2024-12-02 12:16:00,555 - chatbot_logger - INFO - Valid Intent: return_product
+2024-12-02 12:16:00,627 - chatbot_logger - INFO - FAQ Match: How do I return a product? (Similarity: 0.52)
+2024-12-02 12:16:00,627 - app.routes - INFO - User: Help me return this product! | Bot: To return a product, visit the 'Returns' section on our website and follow the instructions.
+2024-12-02 12:16:00,627 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2024 12:16:00] "POST /chat HTTP/1.1" 200 -

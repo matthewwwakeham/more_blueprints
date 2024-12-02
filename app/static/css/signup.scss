@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+// Define variables
+// Background
+$bg-color: #1a1a1a;
+// Card/Content Background
+$content-bg-color: #262626;
+// Overlay
+$overlay-color: rgba(0, 0, 0, 0.5);
+// Box Shadow
+$box-shadow: rgba(0, 0, 0, 0.5);
+// Primary Text
+$text-color-primary: #e6e6e6;
+// Secondary Text
+$text-color-secondary: #b3b3b3;
+// Accent (Blue) for links, buttons, or highlights
+$accent-color: #4d9cdd;
+// Border/Divider for sublte separation
+$border-color: #333333;
+// Error Message
+$error-color: #e74c3c;
+
+// Body styling
+body {
+    background-color: $bg-color;
+    color: $text-color-primary;
+    font-family: Inter;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+    margin: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+// Header
+header {
+    background-color: $bg-color;
+    font-family: "Geologica", sans-serif;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    text-align: center;
+
+    h2 {
+        color: $text-color-primary;
+        margin: 0;
+        font-size: 1rem;
+        font-weight: 500;
+
+        .mercury-symbol {
+            font-size: 1rem; /* Adjust to match your design */
+            background: $accent-color; /* Web3 purple gradient */
+            -webkit-background-clip: text; /* Safari and WebKit-based browsers */
+            background-clip: text; /* For other modern browsers */
+            color: transparent; /* Make the text transparent to show the gradient */
+            display: inline-block;
+        }
+    }
+}
+
+// Logo container styling
+.logo-container {
+    display: flex;
+    justify-content: center; /* Centers the logo horizontally */
+    align-items: center; /* Centers the logo vertically */
+    padding: 0; /* Adds space above and below the logo */
+}
+
+.logo {
+    max-width: 50px; /* Ensures the logo doesn't grow too large */
+    width: 50px;
+    height: 50px;
+}
+
+// Footer
+footer {
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    position: relative;
+    padding: 0.5rem;
+    text-align: center;
+
+    h2 {
+        color: $accent-color;
+        margin: 0;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}
+
+// Container for sign up form
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box
+}
+
+.container .error-message {
+    color: $error-color;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+}
+
+// Header for sign up form
+.container h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.container h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+    color: $text-color-primary;
+}
+
+.container h3 a {
+    color: $accent-color;
+    text-decoration: none;
+}
+
+.container h3 a:hover {
+    text-decoration: underline;
+}
+
+// Form
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+// Input fields
+.input-field {
+    border: 0.5px solid $border-color;
+    background-color: $bg-color;
+    color: $text-color-primary;
+    padding: 1rem;
+    border-radius: 24px;
+    font-size: 1rem;
+    width: 100%;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+
+    &:hover {
+        border-color: $border-color;
+    }
+
+    &:focus {
+        border-color: $accent-color;
+        box-shadow: 0 0 0 1px $accent-color;
+        outline: none;
+    }
+
+    &::placeholder {
+        font-size: 1rem;
+        color: $text-color-secondary;
+    }
+
+    &.button {
+        color: $bg-color;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        background-color: $accent-color;
+        width: 100%;
+        margin: 15px 0;
+        padding: 1rem;
+        border: 0.5px solid $border-color;
+        border-radius: 12px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    
+        &:hover {
+            background-color: lighten($accent-color, 10%); /* Hover effect */
+            border-color: $accent-color;
+        }
+
+        &:focus {
+            outline: none; /* Remove default focus outline */
+            box-shadow: none;
+            border-color: none; /* Highlight border with accent color */
+        }
+
+        &:active {
+            background-color: lighten($accent-color, 10%); /* Active effect */
+        }
+    }
+}

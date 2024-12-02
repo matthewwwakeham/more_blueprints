@@ -1,0 +1,32 @@
+{% extends 'dashboard_base.html' %}
+
+{% block title %}Chatbot{% endblock %}
+
+{% block header %}
+    <h1>Chatbot</h1>
+{% endblock %}
+
+{% block content %}
+    <!-- Chat messages container -->
+    <div id="messages"></div>
+
+    <!-- Typing Indicator (initially hidden) -->
+    <div id="typing-indicator" style="display: none;">
+        <span>Leo is typing</span> <!-- Or you can add a spinner or animation here -->
+    </div>
+
+    <div id="input-area">
+        <!-- Textarea for multi-line input -->
+        <textarea id="user-input" maxlength="140" placeholder="Ask a question or respond" rows="3"></textarea>
+        <!-- Send button -->
+        <button onclick="sendMessage()">
+            <span class="material-icons">keyboard_arrow_up</span>
+        </button>
+    </div>
+
+    <!-- Char count and disclosure-->
+    <div id="char-count-container">
+        <span id="char-limit-phrase">Chats are recorded.</span>
+        <span id="char-count">140 / 140</span>
+    </div>
+{% endblock %}
